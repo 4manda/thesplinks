@@ -16,6 +16,17 @@ React/Redux wedding application to provide information to guests and to collect 
 * ES6
 * Sass
 
+## Sample
+
+### A view of the main page on desktop
+![](wed-app-sample.gif)
+
+### Mobile parallax
+![](wed-app-mobile.gif)
+
+### Admin console
+![](wed-app-sample.gif)
+
 ## TODO (because of the short, one-week time frame of this project, linting and testing has not been updated / maintained)
 
 * Testing (using Eslint, Mocha, Chai, Enzyme, Sinon, nightwatch, ...)
