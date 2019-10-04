@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.splink.wed" version="1.0.0" xmlns="http://localhost" xmlns:cdv="http://localhost">
+    <name>WedApp</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <icon src="res/rings.png" />
+    <author email="us@thesplinks.com" href="https://thesplinks.com">
+        The Splinks
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash density="land-hdpi" src="res/screen/splash_land.png" />
+        <splash density="land-ldpi" src="res/screen/splash_land.png" />
+        <splash density="land-mdpi" src="res/screen/splash_land.png" />
+        <splash density="land-xhdpi" src="res/screen/splash_land.png" />
+        <splash density="port-hdpi" src="res/screen/splash_port.png" />
+        <splash density="port-ldpi" src="res/screen/splash_port.png" />
+        <splash density="port-mdpi" src="res/screen/splash_port.png" />
+        <splash density="port-xhdpi" src="res/screen/splash_port.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <engine name="android" spec="^7.0.0" />
+    <engine name="browser" spec="^5.0.3" />
+</widget>

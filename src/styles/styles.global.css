@@ -1,0 +1,3 @@
+/* Regular @import url statements work as you'd expect them to -- alternatively
+you can import locally, and they wind up in the resulting bundle */
+@import '~semantic-ui-css/semantic.min.css';

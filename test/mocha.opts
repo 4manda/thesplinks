@@ -1,0 +1,6 @@
+test/**/*.test.js
+--require babel-core/register
+--require test/common.js
+--require ignore-styles
+--recursive
+--bail

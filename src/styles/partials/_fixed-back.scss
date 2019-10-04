@@ -1,0 +1,27 @@
+.fixed-back__container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .fixed-back__image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../../../static/img/golden_gate2_crop.jpg');
+    background-position-y: top;
+  }
+
+  .fixed-back__content.ui.segment {
+    background-color: rgba(214, 228, 228, 0.9);
+  }
+}

@@ -1,0 +1,49 @@
+.ui.list>.item h3.ui.header .sub.header {
+  font-weight: 400;
+  color: rgba(0,0,0,0.6);
+}
+
+.ui.sub.header {
+  font-size: 1em;
+}
+
+.ui.pagination.menu {
+  margin: 10px 0 0 5px;
+}
+
+.ui.modal {
+  height: auto;
+}
+
+.component__centered.ui {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ui.menu.attached.item.tabular {
+  margin: 0 !important;
+}
+
+.ui.button.primary {
+  background-color: $dark;
+  color: $light;
+
+  &:hover,
+  &:focus {
+    background-color: $darker;
+  }
+}
+
+.button__link.ui.button {
+  box-shadow: none;
+  background: transparent;
+  color: $linkColor;
+
+  &:hover,
+  &:focus {
+    color: $linkHover;
+  }
+}
+.loader_full-page.ui.loader {
+  top: 10%;
+}

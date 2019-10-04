@@ -1,0 +1,31 @@
+/* RSVP Menu */
+.rsvp__menu.ui.menu .item {
+  border-top-width: 1px;
+  border-color: $lightgrey;
+  border-radius: .28571429rem .28571429rem 0 0!important;
+  background-color: $lightTT;
+  padding-left: 8px!important;
+  padding-right: 8px!important;
+  &:hover {
+    background-color: $lightT;
+  }
+  &.active {
+    background-color: $light;
+  }
+}
+.rsvp__content.ui.segment {
+  background-color: $light;
+}
+
+/* RSVP BUTTON */
+.rsvp-button__page.rsvp-button.ui.button {
+  z-index: 7;
+  position: fixed;
+  top: 0.7em;
+  right: 1.4em;
+  margin: 0;
+  box-shadow: 0 0 10px #444;
+}
+.sidebar-visible .rsvp-button__page.ui.button {
+  display: none;
+}
