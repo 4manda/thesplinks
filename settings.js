@@ -32,6 +32,7 @@ var templateObj = {
   },
 };
 
+console.log(hostname);
 export default {
   endpoints: {
     publicApi: templateObj[hostname]('public'),

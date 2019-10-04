@@ -2,8 +2,8 @@ const jsdom = require('jsdom');
 
 const { JSDOM } = jsdom;
 const instance = new JSDOM('<!doctype html><html><body></body></html>', {
-  url: 'https://example.org/',
-  referrer: 'https://example.com/',
+  url: 'https://thesplinks.com/',
+  referrer: 'https://thesplinks.com/',
   contentType: 'text/html',
   userAgent: 'Mellblomenator/9000',
   includeNodeLocations: true,
