@@ -25,7 +25,7 @@ React/Redux wedding application to provide information to guests and to collect 
 ![](wed-app-mobile.gif)
 
 ### Admin console
-![](wed-app-sample.gif)
+![](wed-app-admin.gif)
 
 ## TODO (because of the short, one-week time frame of this project, linting and testing has not been updated / maintained)
 
