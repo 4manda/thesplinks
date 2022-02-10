@@ -88,7 +88,7 @@
     "mocha": "^5.2.0",
     "nightwatch": "^1.0.6",
     "nock": "^9.2.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^4.0.2",
     "postcss-cssnext": "2.11.0",
     "postcss-loader": "^2.1.1",
