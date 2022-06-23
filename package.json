@@ -84,7 +84,7 @@
     "iltorb": "^2.3.2",
     "image-webpack-loader": "^4.3.1",
     "istanbul": "^1.0.0-alpha",
-    "jsdom": "^11.1.0",
+    "jsdom": "^16.5.0",
     "mocha": "^5.2.0",
     "nightwatch": "^1.0.6",
     "nock": "^9.2.3",
